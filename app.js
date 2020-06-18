@@ -15,9 +15,13 @@ yargs.command({
 
         title: {
             describe: 'title'
+            demandOption: true,
+            type: 'string',
         },
         body:{
             describe:'body'
+            demandOption: true,
+            type: 'string',
         }
 
     },
